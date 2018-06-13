@@ -4,7 +4,7 @@
 ![GitHub release](https://img.shields.io/badge/beta-0.1-blue.svg)  ![PyPI - Python Version](https://img.shields.io/badge/python-3.x-blue.svg)   ![release](https://img.shields.io/badge/build-passing-green.svg)   ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-Implementation of SPF algorithm in &lt;&lt;[Sampled peculiarity factor and its application in anomaly detection](http://www.cnki.net/KCMS/detail/detail.aspx?QueryID=0&CurRec=1&dbcode=CJFQ&dbname=CJFD2010&filename=SDGY201005011&urlid=&yx=&uid=WEEvREcwSlJHSldRa1FhdXNXa0hIeTFXVWQxdElwd05LVmpHSDBtYnFGOD0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4ggI8Fm4gTkoUKaID8j8gFw!!&v=MDgxMzdXTTFGckNVUkxLZlkrZG1GeS9oVXIzS05pbk1kN0c0SDlITXFvOUVaWVI4ZVgxTHV4WVM3RGgxVDNxVHI= "Sampled peculiarity factor and its application in anomaly detection")>> 
+Implementation of SPF algorithm in &lt;&lt;[Sampled peculiarity factor and its application in anomaly detection](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2010&filename=SDGY201005011&uid=WEEvREcwSlJHSldRa1FhcTdWajFtZkFIaHF4RFBzTWJRTGJDN1dvRXUzQT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4ggI8Fm4gTkoUKaID8j8gFw!!&v=MjE3NDg3RGgxVDNxVHJXTTFGckNVUkxLZlllZHNGaUhtV3J2T05pbk1kN0c0SDlITXFvOUVaWVI4ZVgxTHV4WVM=)>> 
 
 There are two example datasets in the project folder that provided by [UCI Machine Learning Repository:Data Sets](https://archive.ics.uci.edu/ml/datasets.html "UCI Machine Learning Repository:Data Sets").
 

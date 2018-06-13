@@ -32,7 +32,7 @@ class Record(object):
         self.features = features
         self.lable = lable
         self.PF = 0
-    def toString(self):
+    def __str__(self):
         return "features: "+str(self.features) + " lable: " + str(self.lable) + " PF: " + str(self.PF)
 
 
@@ -94,11 +94,11 @@ def PF(recordMatrix,sampleIndexs,outliers):
         # if(recordPF > (OPTION['PF_threshold'])):
             countOutlier += 1
             outliers.append(record)
-            logger.info('Outlier Found:'+record.toString())
-            # print("outlier found: ",record.toString()," PF: ",recordPF)
+            logger.info('Outlier Found:'+record)
+            # print("outlier found: ",record," PF: ",recordPF)
         else:
-            logger.info('Not an outlier:'+record.toString())
-            # print('not an outlier',record.toString()," PF: ",recordPF)
+            logger.info('Not an outlier:'+record)
+            # print('not an outlier',record," PF: ",recordPF)
 
 
 PF(matrix,sample,outliers)
@@ -112,7 +112,7 @@ print("size of outliers: ",len(outliers))
 outliers.sort(key=lambda record: record.PF)
 outliersFile = open('outliers.txt','w')
 for rec in outliers:
-    outliersFile.write(rec.toString())
+    outliersFile.write(rec)
     outliersFile.write('\n')
 outliersFile.close()
 
@@ -120,7 +120,7 @@ outliersFile.close()
 matrix.sort(key=lambda record: record.PF)
 matrixFile = open('matrix.txt','w')
 for rec in matrix:
-    matrixFile.write(rec.toString())
+    matrixFile.write(rec)
     matrixFile.write('\n')
 matrixFile.close()
 
